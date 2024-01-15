@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width initial-scale=1 shrink-to-fit=no">
+  <title>KrainaKofeina</title>
+ 
+    
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#home">Strona Główna</a>
+  <a href="#about">O Nas</a>
+  <a href="#category1">Kawa</a>
+  <a href="#category2">Parzenie</a>
+  <a href="#category3">Kontakt</a>
+  <div style="float: right;">
+    <form class="search-form" action="/search" method="GET">
+      <input type="text" placeholder="Szukaj..." name="search">
+      <input type="submit" value="Szukaj">
+    </form>
+    <div class="login-form">
+      <h2>Logowanie</h2>
+      <label for="username">Użytkownik:</label>
+      <input type="text" id="username" name="username">
+      <label for="password">Hasło:</label>
+      <input type="password" id="password" name="password">
+      <input type="submit" value="Zaloguj">
+    </div>
+  </div>
+</div>
+
+<div class="section" id="home">
+  <h2>Strona Główna</h2>
+  <p>Tutaj znajduje się zawartość sekcji Strona Główna.</p>
+</div>
+
+<div class="section" id="about">
+  <h2>O Nas</h2>
+  <p>Tutaj znajduje się zawartość sekcji O Nas.</p>
+</div>
+
+<div class="section" id="Kawa">
+  <h2>Kategoria 1</h2>
+  <p>Tutaj znajduje się zawartość sekcji Kategoria 1.</p>
+</div>
+
+<div class="section" id="Parzenie">
+  <h2>Kategoria 2</h2>
+  <p>Tutaj znajduje się zawartość sekcji Kategoria 2.</p>
+</div>
+
+<div class="section" id="Kontakt">
+  <h2>Kategoria 3</h2>
+  <p>Tutaj znajduje się zawartość sekcji Kategoria 3.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Logowanie</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url(https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg?cs=srgb&dl=pexels-igor-haritanovich-1695052.jpg&fm=jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    }
+
+    .login-container {
+      width: 500px;
+      margin: 300px auto;
+      color: #333;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      align-content: center;
+      background-color: #c9aa90;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .login-form {
+      margin-top: 30px;
+    }
+
+    .login-form label,
+    .login-form input[type="text"],
+    .login-form input[type="password"],
+    .login-form input[type="submit"] {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .login-form input[type="submit"] {
+      padding: 10px;
+      background-color: #333;
+      color: #eae7e7;
+      border: none;
+      cursor: pointer;
+    }
+
+    .login-form input[type="submit"]:hover {
+      background-color: #493e3e;
+    }
+  </style>
+</head>
+<body>
+
+<div class="login-container">
+  <h2>Logowanie</h2>
+  <form class="login-form" action="/process-login" method="POST">
+    <label for="username">Użytkownik:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Hasło:</label>
+    <input type="password" id="password" name="password" required>
+
+    <input type="submit" value="Zaloguj">
+  </form>
+</div>
+
+</body>
+</html>
